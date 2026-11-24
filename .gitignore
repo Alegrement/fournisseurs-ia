@@ -1,0 +1,18 @@
+# Environnement virtuel Python (se recrée avec requirements.txt)
+.venv/
+venv/
+
+# Fichiers temporaires de Python
+__pycache__/
+*.pyc
+
+# Secrets Streamlit : contiendra la clé API Claude en v2, ne doit JAMAIS aller sur GitHub
+.streamlit/secrets.toml
+
+# Fichiers de configuration locaux
+.env
+.vscode/
+
+# Consignes et réglages pour Claude : restent sur mon PC
+CLAUDE.md
+.claude/
